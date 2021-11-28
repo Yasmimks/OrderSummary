@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background: hsl(225, 100%, 94%)
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+
+    
+}
+
+.card{
+    background: white;
+    width: 300px;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.253);
+    border-radius: 18px;
+    
+}
+
+.card-image{
+    background-image: url(/images/illustration-hero.svg);
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 18px 18px 0 0;
+    background-size: cover;
+}
+
+.card p {
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: hsl(224, 23%, 55%);
+    font-size: small;
+    margin-bottom: 15px;
+    
+
+}
+
+.card h2{
+    text-align: center;
+    padding: 10px 0 2px 0;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900px;
+    
+}
+
+.plan-col{
+    flex-basis: 43%;
+    border-radius: 10px;
+    justify-content: left;
+    text-align: center;
+    background: hsl(225, 100%, 98%);
+    padding: 5px;
+    width: 80%;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-bottom: 25px;
+    
+}
+.plan-col img{
+    height: 35px;
+
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.plan-col p{
+    padding: 0;
+}
+.plan-col h3{
+    font-size: smaller;
+    
+    text-align: left;
+}
+
+button{
+    background: hsl(245, 75%, 52%);
+    color: white;
+    border: 1px solid hsl(245, 75%, 52%);
+    padding: 8px;
+    font-size: 12px;
+    position: relative;
+    border-radius: 10px;
+    display: inline-block;
+    width: 80%;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-bottom: 15px;
+    box-shadow: 1px 10px 30px rgba(105, 107, 202, 0.582);
+    
+    
+}
+
+.cancel{
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    color: hsl(224, 23%, 55%);
+    font-size: 11px;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+a{
+ float: ;
+}

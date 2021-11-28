@@ -1,0 +1,104 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: hsl(225, 100%, 94%);
+    
+}
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 150px 60px;
+    grid-template-areas: "image" "text" "plan";
+    font-family: 'Red Hat Display', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.253);
+    text-align: center;
+    font-weight: 600;
+    color: hsl(224, 23%, 55%);
+    
+}
+.card h1{
+    margin-top: 0px;
+    color: hsl(223, 47%, 23%);
+    
+}
+.card-image{
+    grid-area: image;
+    background-image: url("/images/illustration-hero.svg");
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    background-size: cover;
+}
+.card-text{
+    grid-area: text;
+    margin: 25px;
+    color: hsl(223, 47%, 23%);
+    
+}
+.plan-col{
+    flex-basis: 43%;
+    border-radius: 18px;
+    margin-bottom: 0;
+    text-align: left;
+    background: hsl(225, 100%, 98%);
+    padding: 25px 10px;
+    cursor: pointer;
+    display: flex;
+    
+
+}
+.plan-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+
+}
+.plan-col h3{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900px;
+}
+
+.plan-col p{
+    padding: 0;
+    font-size: 12px;
+}
+
+.plan-col a{
+    font-size: 12px;
+    margin-left: 130px;
+    display: block;
+}
+
+button{
+    background: hsl(245, 75%, 52%);
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid hsl(245, 75%, 52%);
+    padding: 10px 70px;
+    margin: auto;
+    font-size: 13px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+
+
+
+footer a{
+    text-decoration: none;
+    margin-top: 40px;
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+
