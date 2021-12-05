@@ -10,12 +10,12 @@ body{
 }
 
 .container{
+    margin-top: 10vh;
     display: flex;
     justify-content: center;
     
-
-    
 }
+
 
 .card{
     background: white;
@@ -100,7 +100,7 @@ button{
     display: flex;
     margin-bottom: 15px;
     box-shadow: 1px 10px 30px rgba(105, 107, 202, 0.582);
-    
+    cursor: pointer;
     
 }
 
